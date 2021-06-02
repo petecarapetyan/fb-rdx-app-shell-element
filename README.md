@@ -24,6 +24,7 @@ This will give me an opportunity to see which problems can be overcome, and at w
 - I need an app which is 99% dumb products and 1% smart shopping cart
 - I feel compelled to make the owner maintain their own product pages without touching my shopping cart functionality. So they get dumb pages, I get the one smart page with a separate app web component to maintain.
 - hope i can make it work
+- obviously something like local storage will have to function as an intermediary. Perfection, in this case, is not necessary. Shopping cart is the ultimate authority so some miscommunication from the product pages is acceptable with this design.
 
 ## Next
 
