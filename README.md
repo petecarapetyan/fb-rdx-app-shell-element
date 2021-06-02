@@ -10,8 +10,9 @@ This will give me an opportunity to see which problems can be overcome, and at w
 
 ## How Created
 
-- started out by forking rdx-demo
+- started out by forking [rdx-demo](https://github.com/CaptainCodeman/rdx-demo)
 - kept removing everything i could until I couldn't think of anything more to remove
+- updated lit to latest version
 
 ## Next
 
