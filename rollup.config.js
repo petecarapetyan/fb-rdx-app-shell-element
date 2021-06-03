@@ -5,10 +5,12 @@ import resolve from '@rollup/plugin-node-resolve'
 import replace from '@rollup/plugin-replace'
 import typescript from '@rollup/plugin-typescript'
 
+const targetDir = process.env.TARGET_DIR.length>0? process.env.TARGET_DIR : "./docs"
+
 export default [{
   input: 'src/index.ts',
   output: {
-    dir: 'docs',
+    dir: targetDir,
     format: 'esm',
     sourcemap: true,
   },
@@ -18,8 +20,7 @@ export default [{
     }),
     resolve({
       dedupe: [
-        'lit-element',
-        'lit-html',
+        'lit'
       ]
     }),
     typescript({ typescript: require('typescript') }),
