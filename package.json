@@ -11,8 +11,8 @@
     "rdx",
     "redux",
     "state",
-    "pwa",
-    "demo"
+    "PWA",
+    "Web Component"
   ],
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.1",

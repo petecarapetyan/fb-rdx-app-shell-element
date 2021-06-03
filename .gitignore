@@ -1,4 +1,4 @@
 .firebase/
 node_modules/
-demo/index.*
+docs/index.*
 package-lock.json

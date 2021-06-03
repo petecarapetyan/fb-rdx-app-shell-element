@@ -28,8 +28,8 @@ This will give me an opportunity to see which problems can be overcome, and at w
 
 ## Next
 
-- make it work inside @web/dev-server
-- maybe upgrade firebase versions once i figure out how to use different api
+- Convert it to work inside @web/dev-server
+- Too many firebase upgrades to mention here - for making it more performant
 - then see which of this can be consumed within a project such as
   - [Rocket](https://rocket.modern-web.dev/)
   - [lit-element-starter](https://github.com/PolymerLabs/lit-element-starter-ts)

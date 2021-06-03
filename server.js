@@ -4,9 +4,9 @@ const logger = require('connect-logger');
 const compression = require('compression');
 
 browserSync.init({
-  cwd: 'demo',
+  cwd: 'docs',
   server: {
-    baseDir: 'demo',
+    baseDir: 'docs',
     index: 'index.html',
     routes: {
       '/node_modules': 'node_modules',
